@@ -1,0 +1,31 @@
+{
+  "name": "fixed-data-table-poc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.config.js --hot --history-api-fallback"
+  },
+  "author": "ypling",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-env": "1.2.2",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "file-loader": "0.10.1",
+    "fixed-data-table": "^0.6.3",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-redux": "5.0.3",
+    "redux": "3.6.0",
+    "redux-thunk": "2.2.0",
+    "webpack": "2.3.1"
+  },
+  "devDependencies": {
+    "react-hot-loader": "3.0.0-beta.6",
+    "webpack-dev-server": "2.4.2"
+  }
+}
